@@ -45,6 +45,7 @@ export default Ember.Component.extend({
       }
       
       if (this.attrs.onchange){
+        console.log('test');
         this.attrs.onchange(selection);
       }
 
